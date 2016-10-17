@@ -2,7 +2,7 @@
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://users.wpi.edu/~nkjefferson/nkjefferson.github.io/img/closeup_laptop.jpg');
+  background-image: url('../img/closeup_laptop.jpg');
   background-size: cover;
   color: #000000;
   height: 400px;
@@ -24,6 +24,17 @@
   margin: 0 0 20px;
   color: #AAA;
   opacity: 0.75;
+}
+
+.profile-img{
+  background-image:url("../img/Profile.jpg");
+  background-size:cover;
+  width:300px;
+  height:300px;
+  border-radius:100%;
+  margin-left: 150px;
+  margin-top: 100px;
+
 }
 
 .icon {
@@ -157,4 +168,5 @@
 
 body {
   background-color: #404040;
+  overflow-x:hidden;
 }
